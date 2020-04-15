@@ -49,3 +49,62 @@ table {
 
 /* --- DHD BEGINS CODE HERE --- */
 
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+#wrapper {
+    background-color: lightskyblue;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.header-box h1 {
+    font-size: x-large;
+    text-align: center;
+    padding: 25px;
+    border: 1px solid black;
+}
+
+.nav-buttons {
+    display: flex;
+	justify-content: center;
+    align-items: center;
+	border: 1px solid black;
+}
+
+.nav-buttons a {
+   padding: 20px;
+   background-color: lightseagreen;
+   border: 1px solid black;
+}
+
+.header-box h2 {
+    font-size: larger;
+    text-align: center;
+    padding: 25px;
+    border: 1px solid black;
+}
+
+.header-box p {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.wide-image {
+    border: 1px solid black;
+}
+
+.project-gallery {
+    border: 1px solid black;
+}
+
+.footer-button {
+    text-align: center;
+    padding: 20px;
+    background-color: lightgreen; 
+    border: 1px solid black;
+}
