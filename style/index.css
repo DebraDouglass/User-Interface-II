@@ -50,61 +50,98 @@ table {
 /* --- DHD BEGINS CODE HERE --- */
 
 /* Set every element's box-sizing to border-box */
-* {
+/* * {
     box-sizing: border-box;
-}
+} */
 
-#wrapper {
-    background-color: lightskyblue;
+.wrapper {
+    background-color: lightcyan;
     margin: 5px;
     padding: 5px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .header-box h1 {
     font-size: x-large;
     text-align: center;
     padding: 25px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
-.nav-buttons {
+.header-box .nav-buttons {
     display: flex;
 	justify-content: center;
     align-items: center;
-	border: 1px solid black;
+	/* border: 1px solid black; */
 }
 
-.nav-buttons a {
-   padding: 20px;
-   background-color: lightseagreen;
-   border: 1px solid black;
+.header-box .nav-buttons a {
+    font-size: smaller;
+    color: darkcyan;
+    padding: 20px;
+    text-decoration: none;
+   /* border: 1px solid black; */
 }
 
 .header-box h2 {
     font-size: larger;
     text-align: center;
     padding: 25px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .header-box p {
     text-align: center;
-    padding: 10px;
-    border: 1px solid black;
+    padding: 20px;
+    /* border: 1px solid black; */
 }
 
 .wide-image {
-    border: 1px solid black;
+    padding: 25px 0px 10px 0px;
+    /* border: 1px solid black; */
 }
 
 .project-gallery {
-    border: 1px solid black;
+    display: flex;
+    /* border: 1px solid black; */
 }
 
-.footer-button {
-    text-align: center;
+.project-gallery .project-links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 75%;
+    /* border: 1px solid black; */
+}
+
+.project-gallery .project-links a {
+    padding-bottom: 10px;
+    /* border: 1px solid black; */
+}
+
+.project-gallery .project-text {
+    display: flex;
+    align-items: center;
+    width: 25%;
+    /* border: 1px solid black; */
+}
+
+.project-gallery .project-text p {
+    margin-right: 35px;
+    padding: 50px; 
+    /* border: 1px solid black; */
+}
+
+.footer-box .footer-buttons {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    background-color: aquamarine; 
+    /* border: 1px solid black; */
+}
+
+.footer-box .footer-buttons a {
+    color: darkcyan;
+    text-decoration: none;
     padding: 20px;
-    background-color: lightgreen; 
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
