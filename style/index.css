@@ -47,101 +47,102 @@ table {
 	border-spacing: 0;
 }
 
-/* --- DHD BEGINS CODE HERE --- */
+html {
+   font-size: 62.5%;
+}
 
-/* Set every element's box-sizing to border-box */
-/* * {
-    box-sizing: border-box;
-} */
+/* --- DHD BEGINS CODE HERE ------------------------------- */
 
 .wrapper {
     background-color: lightcyan;
-    margin: 5px;
-    padding: 5px;
+    margin: 0px auto;
     /* border: 1px solid black; */
 }
 
 .header-box h1 {
-    font-size: x-large;
+    font-size: 2.6rem;
     text-align: center;
-    padding: 25px;
-    /* border: 1px solid black; */
+    padding: 2.5rem;
+    border: .01rem solid black;
 }
 
 .header-box .nav-buttons {
     display: flex;
 	justify-content: center;
     align-items: center;
-	/* border: 1px solid black; */
+    border: .01rem solid black;
 }
 
 .header-box .nav-buttons a {
-    font-size: smaller;
+    font-size: 1.5rem;
     color: darkcyan;
     padding: 20px;
     text-decoration: none;
-   /* border: 1px solid black; */
+    border: .01rem solid black;
 }
 
 .header-box h2 {
-    font-size: larger;
+    font-size: 2rem;
     text-align: center;
-    padding: 25px;
-    /* border: 1px solid black; */
+    padding: 2.5rem;
+    border: .01rem solid black;
 }
 
 .header-box p {
+    font-size: 1.5rem;
     text-align: center;
-    padding: 20px;
-    /* border: 1px solid black; */
+    padding: 2rem;
+    border: .01rem solid black;
 }
 
 .wide-image {
-    padding: 25px 0px 10px 0px;
-    /* border: 1px solid black; */
+    padding: 2.5rem 0 1.0rem 0;
+    border: .01rem solid black;
 }
 
 .project-gallery {
     display: flex;
-    /* border: 1px solid black; */
+    border: .01rem solid black;
 }
 
 .project-gallery .project-links {
     display: flex;
     justify-content: space-evenly;
     width: 75%;
-    /* border: 1px solid black; */
+    border: .01rem solid black;
 }
 
 .project-gallery .project-links a {
-    padding-bottom: 10px;
-    /* border: 1px solid black; */
+    padding-bottom: 1.0rem;
+    border: .01rem solid black;
 }
 
 .project-gallery .project-text {
     display: flex;
     align-items: center;
     width: 25%;
-    /* border: 1px solid black; */
+    border: .01rem solid black;
 }
 
 .project-gallery .project-text p {
-    margin-right: 35px;
-    padding: 50px; 
-    /* border: 1px solid black; */
+    font-size: 1.5rem;
+    margin-right: 3.5rem;
+    padding: 5.0rem; 
+    border: .01rem solid black;
 }
 
 .footer-box .footer-buttons {
     display: flex;
     justify-content: center;
-    padding: 40px;
+    padding: 4.0rem;
     background-color: aquamarine; 
-    /* border: 1px solid black; */
+    border: .01rem solid black;
 }
 
 .footer-box .footer-buttons a {
+    font-size: 1.5rem;
     color: darkcyan;
     text-decoration: none;
-    padding: 20px;
-    /* border: 1px solid black; */
+    padding: 2.0rem;
+    border: .01rem solid black;
 }
